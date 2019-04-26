@@ -1,0 +1,10 @@
+<app-header [title]="'Menu'" [canBack]="'tables'"></app-header>
+<div class="content">
+  <div class="filter">
+    <app-filter *ngFor="let item of filters" [filter]="item" [activated]="item.active" (click)="selectFilter(item)"></app-filter>
+  </div>
+  <div class="food">
+    <app-food *ngFor="let item of foods" [food]="item"></app-food>
+  </div>
+</div>
+<app-footer></app-footer>

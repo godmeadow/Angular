@@ -1,0 +1,88 @@
+.logo {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.logo img {
+    max-width: 15%;
+    margin-top: 5rem;
+}
+
+.logo h3 {
+    margin: auto;
+    font-size: 23px;
+    letter-spacing: 1px;
+}
+
+.logo p {
+    margin: auto;
+    font-size: 15px;
+    color: gray;
+}
+
+form {
+    margin: auto;
+    height: auto;
+}
+
+form .form-group {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 253px;
+    padding: 1rem;
+}
+
+form .form-group label {
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+form .form-group input {
+    padding: 0.3rem;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 13px;
+    outline: none;
+    font-weight: 700;
+}
+
+form .form-group input[type="text"] {
+    font-family: "Squared";
+    letter-spacing: 1px;
+    background: url(/assets/man-user.png) no-repeat;
+    background-position: 15rem 0.4rem;
+    background-repeat: no-repeat;
+    background-size: 0.6rem;
+}
+
+form .form-group input[type="password"] {
+    font-family: "Squared";  
+    letter-spacing: 1px;
+    background: url(/assets/key.png) no-repeat;
+    background-position: 15rem 0.4rem;
+    background-repeat: no-repeat;
+    background-size: 0.6rem;
+}
+
+form .form-group span {
+    font-size: 15p;
+}
+
+form .login {
+    text-align: center;
+    padding: 8rem 0;
+}
+
+form .login input {
+    padding: 1rem 7rem;
+    border: 1px solid #422912;
+    background-color: #422912;
+    color: white;
+    border-radius: 30px;
+    letter-spacing: 1px;
+    outline: none;
+    cursor: pointer;
+}

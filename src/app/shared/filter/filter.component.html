@@ -1,0 +1,5 @@
+<div class="filter" [ngClass]="{'active': activated}">
+  <img *ngIf="!activated"src="{{ 'assets/coffee' + '.png' }}" alt="">
+  <img *ngIf="activated" src="{{ 'assets/coffee' + '-active.png' }}" alt="">
+  <label for="">{{filter.title}}</label>
+</div>

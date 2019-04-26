@@ -1,0 +1,27 @@
+.filter {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: 76px;
+    width: 76px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border-radius: 4px;
+}
+
+.filter label {
+    padding-top: 0.4rem;
+    font-size: 14px;
+    text-align: center;
+}
+
+.filter.active {
+    background-color: #C8B496;
+    color: white;
+}
+
+.filter img {
+    height: 36px;
+    width:36px;
+}

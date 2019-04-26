@@ -1,0 +1,18 @@
+<div class="food">
+  <div class="left">
+    <img src="{{ food.cover }}" alt="">
+  </div>
+  <div class="right">
+    <h3>
+      {{food.name}}
+    </h3>
+    <h4>
+      {{food.price | currency:'VND'}}
+    </h4>
+    <div class="quantity">
+      <button (click)="decrease()">-</button>
+      <input type="text" [ngModel]="quantity">
+      <button (click)="increase()">+</button>
+    </div>
+  </div>
+</div>

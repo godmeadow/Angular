@@ -1,0 +1,3 @@
+<div class="footer">
+  <app-tab *ngFor="let item of tabs" [tab]="item" [activated]="item.active" (click)="selectTab(item)"></app-tab>
+</div>

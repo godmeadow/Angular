@@ -1,0 +1,18 @@
+<div class="table" (click)="tapOnTable(table)">
+    <div class="t-header">
+        <div class="tab">
+            {{table.name}}
+        </div>
+        <div class="name">
+            {{table.orderName}}
+        </div>
+    </div>
+    <div class="t-body">
+        <div class="order">
+            {{table.totalDishes}} Orders
+        </div>
+        <div class="status" [ngClass]="{'available': table.status === 1, 'serving': table.status === 2, 'closed': table.status === 3}">
+            {{table.status | tableStatus}}
+        </div>
+    </div>
+</div>

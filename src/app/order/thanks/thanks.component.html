@@ -1,0 +1,29 @@
+<app-header [title]="'Thanks'"></app-header>
+<div class="content">
+  <div class="title">
+    <h3>Orders</h3>
+  </div>
+  <div class="body" *ngFor="let item of order?.details">
+    <div class="l-body">
+      <img src="{{item.cover}}" alt="">
+    </div>
+    <div class="r-body">
+      <h3>{{item.foodName}}</h3>
+      <h4>{{item.amount / item.quatity | currency: "VND"}}</h4>
+      <div class="btn">
+        <button>{{item.quatity}}</button>
+      </div>
+    </div>
+  </div>
+  <div class="note">
+    <textarea rows="5" placeholder="Note something"></textarea>
+  </div>
+  <div class="footer">
+    <div class="btn-more">
+      <button (click)="moreOrder()">More Order</button>
+    </div>
+    <div class="btn-done">
+      <button (click)="completeOrder()">Done</button>
+    </div>
+  </div>
+</div>

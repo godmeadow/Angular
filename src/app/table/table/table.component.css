@@ -1,0 +1,60 @@
+.table {
+    display: inline-block;
+    width: calc(50% - 2rem);
+    background-color: #775333;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    color: white;
+    border-radius: 5px;
+}
+
+.table:nth-child(2n) {
+    margin-right: 0;
+}
+
+.table .t-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    border-bottom: 1px gray solid;
+}
+
+.table .t-header .tab {
+    font-size: 17px;
+    flex: 1;
+}
+
+
+.table .t-header .name {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 2;
+    color: yellow;
+}
+
+.table .t-body {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.2rem 0.5rem;
+    margin-top: 1rem;
+}
+
+.table .t-body .status {
+    font-size: 12px;
+    color: #918B85;
+    padding: 0.5rem 1rem;
+    margin-top: -0.3rem;
+    margin-right: -1rem;
+}
+
+.table .t-body .available  {
+    color: #FF8B10;
+}
+.table .t-body .serving  {
+    background-color: yellow;
+}
+
+.table .t-body .closed  {
+    color: #C8B496;
+}

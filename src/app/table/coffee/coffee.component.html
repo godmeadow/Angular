@@ -1,0 +1,9 @@
+<app-header [title]="'Home'"></app-header>
+
+<div class="container" *ngIf="tables.length">
+    <app-table *ngFor="let item of tables" [table]="item" (onTable)="onTapTable($event)"></app-table>
+</div>
+<div *ngIf="!tables.length" style="text-align: center">
+    Loading. Please wait...
+</div>
+<app-footer></app-footer>

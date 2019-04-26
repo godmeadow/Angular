@@ -1,0 +1,4 @@
+<div class="tab">
+  <img *ngIf="!activated" src="{{tab.icon + '.png'}}" [alt]="tab.name">
+  <img *ngIf="activated" src="{{tab.icon + '-white.png'}}" [alt]="tab.name">
+</div>

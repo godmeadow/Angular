@@ -1,0 +1,28 @@
+.content .header img {
+    max-width: 100%;
+}
+
+.content .body {
+    padding: 0 1.5rem;
+}
+
+.content .body .about h3,
+.content .body .gallery h3 {
+    font-size: 22px;
+    letter-spacing: 1px;
+    font-weight: 900;
+    color: #422912;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.content .body .about p,
+.content .body .gallery p {
+    color: #727272;
+    margin-top: 0.7rem;
+    padding-bottom: 1rem;
+}
+
+.content .body .gallery p {
+    padding-bottom: 3rem;
+}

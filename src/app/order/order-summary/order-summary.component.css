@@ -1,0 +1,137 @@
+.footer {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    background-color: #422912;
+    align-items: center;
+}
+
+.footer .left {
+    flex: 1;
+    height: 50%;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.footer .left img {
+    height: 100%;
+    float: left;
+}
+
+.footer .left h3 {
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 30px;
+    font-size: 13px;
+    background-color: white;
+    margin-top: -1.5rem;
+    margin-left: -0.2rem;
+    color: #422912;
+}
+
+.footer .left h4 {
+    padding-left: 1rem;
+    color: white;
+    font-weight: 400;
+}
+
+.footer .right {
+    flex: 1;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.footer .right img {
+    height: 100%;
+    margin-right: 1.5rem;
+}
+
+.footer .right button {
+    float: right;
+    padding: 1.1rem;
+    margin-right: 0.2rem;
+    background-color: #C8B496;
+    border: none;
+    color: white;
+    letter-spacing: 1px;
+    outline: none;
+}
+
+.modal {
+    height: 340px;
+    width: 100%;
+    overflow-y: scroll;
+    margin-bottom: 0.5rem;
+    position: absolute;
+    left: 0;
+    bottom: -336px;
+    color: #422912;
+    background-color: white;
+}
+
+.modal .header {
+    display: flex;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+.modal .header h3 {
+    flex: 1;
+    font-size: 22px;
+    letter-spacing: 0.5px;
+}
+
+.modal .header img {
+    height: 100%;
+    transform: rotateZ(180deg);
+}
+
+.modal .body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -0.4rem;
+}
+
+.modal .body:hover {
+    background-color: #F8F8F8;
+}
+
+.modal .body .l-body {
+    flex: 1;
+    margin-left: 1.5rem;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+.modal .body .r-body {
+    margin-right: 1.5rem; 
+    font-size: 14px;
+}
+
+.modal .note {
+    width: 100%;
+    margin-left: 1.4rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.modal .note textarea {
+    padding: 0.7rem 1rem;
+    width: 80%;
+    border-radius: 5px;
+    outline: none;
+    font-size: 15px;
+    resize: none;
+}
+
+
+
